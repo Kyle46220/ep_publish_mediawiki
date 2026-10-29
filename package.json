@@ -1,0 +1,41 @@
+{
+  "name": "ep_publish_mediawiki",
+  "version": "0.1.0",
+  "description": "Publish an Etherpad to a MediaWiki page, with revision history or dated archives",
+  "license": "MIT",
+  "main": "index.js",
+  "keywords": [
+    "etherpad",
+    "mediawiki",
+    "publish",
+    "ep"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "files": [
+    "ep.json",
+    "index.js",
+    "lib",
+    "static",
+    "README.md",
+    "LICENSE"
+  ],
+  "dependencies": {
+    "htmlparser2": "^10.0.0",
+    "ipaddr.js": "^2.2.0",
+    "tough-cookie": "^5.1.2",
+    "express": "^4.21.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kyle46220/ep_publish_mediawiki.git"
+  },
+  "homepage": "https://github.com/Kyle46220/ep_publish_mediawiki#readme",
+  "bugs": {
+    "url": "https://github.com/Kyle46220/ep_publish_mediawiki/issues"
+  }
+}

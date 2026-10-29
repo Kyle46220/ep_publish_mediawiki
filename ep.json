@@ -1,0 +1,1 @@
+{"parts":[{"name":"publish_mediawiki","hooks":{"expressCreateServer":"ep_publish_mediawiki/index:expressCreateServer","eejsBlock_editbarMenuLeft":"ep_publish_mediawiki/index:toolbar"},"client_hooks":{"documentReady":"ep_publish_mediawiki/static/js/publish:documentReady"}}]}
